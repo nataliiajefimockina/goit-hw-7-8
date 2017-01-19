@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'League Gothic Regular';
+    src: url('../fonts/LeagueGothic-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans Extra-bold';
+    src: url('../fonts/OpenSans-ExtraBold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans Light';
+    src: url('../fonts/OpenSans-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
