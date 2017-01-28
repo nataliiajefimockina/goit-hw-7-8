@@ -96,7 +96,7 @@ header {
     border-bottom: 2px solid #edbfff;
 }
 
- /* MOUNTAIN */
+ /* SLIDER */
 
 .mountain__slider {
     width: 100%;
@@ -168,7 +168,6 @@ header {
     right: 194px;
     background-position: -31px  0;
 }
-/* кнопки переключатели */
 
 .slider__buttons > input {
     display: none;
@@ -405,11 +404,6 @@ header {
     margin-top: 13.3%;
     margin-left: 43.3%;
 }
-
-/*.slider__buttons .controls {
-    position: absolute;
-    right: 358px;
-}*/
 
 .slider__buttons__white label {
     display: inline-block;
