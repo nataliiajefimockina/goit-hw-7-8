@@ -88,6 +88,10 @@ header {
     text-transform: uppercase;
 }
 
+.menu__link-s {
+    display: none;
+}
+
 .menu__item:last-child .menu__link {
     padding: 0;
 }

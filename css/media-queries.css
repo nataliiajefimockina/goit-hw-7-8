@@ -762,7 +762,7 @@ header {
     float: none;
 }
 
-.menu {
+.menu__item {
     display: none;
 }
 
