@@ -81,13 +81,13 @@
     }
 
     .slider__button--left {
-        margin-top: 170px;
         left: 1px;
+        margin-top: 170px;
     }
 
     .slider__button--right {
-        margin-top: 170px;
         right: 1px;
+        margin-top: 170px;
         background-position: -31px  0;
     }
 
@@ -349,10 +349,22 @@
         width: 244px;
         height: 255px;
         margin: 0 118px;
+        /*border: 1px solid #0f1a20;
+        border-radius: 9px;
+        background-color: rgba(49, 37, 55, .9);*/
+        text-align: center;
+        z-index: 1;
+    }
+
+    .submenu {
+        display: none;
         border: 1px solid #0f1a20;
         border-radius: 9px;
         background-color: rgba(49, 37, 55, .9);
-        text-align: center;
+    }
+
+    .menu:hover .submenu {
+        display: block;
     }
 
     .menu__item {
@@ -364,7 +376,10 @@
     }
 
     .menu__item:first-child {
+        border: 1px solid #0f1a20;
         border-top: 1px solid transparent;
+        border-radius: 9px;
+        background-color: rgba(49, 37, 55, .9);
     }
 
     .menu__item:nth-child(2) {
@@ -385,7 +400,7 @@
 
     .menu__item:nth-child(5) {
         margin: -2px 0 0;
-        padding: 8px 0 8px;
+        padding: 8px 0;
     }
 
     .menu__item:last-child {
@@ -402,41 +417,39 @@
         width: 236px;
         margin: 0 auto;
         padding: 0 2px 0 0;
-        /*border-bottom: 2px solid #edbfff;*/
     }
 
-    .menu .menu__item:first-child > a {
-        width: 42px;
+    .submenu .menu__item:first-child > a {
+        /*width: 42px;*/
     }
 
-    .menu .menu__item:nth-child(2) > a {
+    .submenu .menu__item:nth-child(2) > a {
         padding: 0 5px 4px 3px;
-        border-bottom: 2px solid #edbfff;
     }
 
-    .menu .menu__item:nth-child(3) > a {
-        width: 42px;
+    .submenu .menu__item:nth-child(3) > a {
+        /*width: 42px;*/
         padding: 3px 8px 0 5px;
     }
 
-    .menu .menu__item:nth-child(4) > a {
+    .submenu .menu__item:nth-child(4) > a {
         padding: 0 2px 0 0;
     }
 
-    .menu .menu__item:nth-child(5) > a {
-        width: 94px;
+    .submenu .menu__item:nth-child(5) > a {
+        /*width: 109px;*/
         padding: 0 2px 0 0;
     }
 
-    .menu .menu__item:last-child > a {
-        width: 109px;
+    .submenu .menu__item:last-child > a {
+        /*width: 109px;*/
         padding: 4px 2px 0 0;
     }
 
     /* SLIDER */
     .mountain__slider {
-       height: 246px;
-       margin-bottom: 0;
+        height: 246px;
+        margin-bottom: 0;
     }
 
     .slider__image {
@@ -478,11 +491,15 @@
     }
 
     .slider__button--left {
+        top: 102px;
         left: 1px;
+        margin-top: 0;
     }
 
     .slider__button--right {
+        top: 102px;
         right: 1px;
+        margin-top: 0;
         background-position: -31px  0;
     }
 
@@ -493,7 +510,7 @@
 
     .slider__buttons .controls {
         right: 196px;
-        bottom: 60px
+        bottom: -55px;
     }
 
     .mountain__image {
@@ -851,13 +868,22 @@
     }
 
     .slider__button--left {
+        margin-top: 0px;
         left: 289px;
+        top: 6px;
         background-position: -31px  0;
     }
 
     .slider__button--right {
+        margin-top: 0px;
+        top: 6px;
         right: 289px;
     }
+
+.slider__buttons .controls {
+    right: 119px;
+    bottom: -82px;
+}
 
     .mountain__image {
         margin-left: 38%;

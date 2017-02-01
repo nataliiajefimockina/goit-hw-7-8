@@ -9,19 +9,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </html>
     <body>
-        <div class="wrapper">
-
+        <div class="wrap_mountain">
             <section class="mountain">
                 <header>
                     <a class="header__logo" href="#"><img src="img/logo.png" alt="pingbuller"></a>
                     <nav>
                         <ul class="menu clearfix">
                             <li class="menu__item"><a class="menu__link" href="#">home</a></li>
-                            <li class="menu__item"><a class="menu__link" href="#">about</a></li>
-                            <li class="menu__item"><a class="menu__link" href="#">blog</a></li>
-                            <li class="menu__item"><a class="menu__link" href="#">products</a></li>
-                            <li class="menu__item"><a class="menu__link" href="#">lorem ipsum</a></li>
-                            <li class="menu__item"><a class="menu__link" href="#">dolor sit amet</a></li>
+                            <ul class="submenu">
+                                <li class="menu__item"><a class="menu__link" href="#">about</a></li>
+                                <li class="menu__item"><a class="menu__link" href="#">blog</a></li>
+                                <li class="menu__item"><a class="menu__link" href="#">products</a></li>
+                                <li class="menu__item"><a class="menu__link" href="#">lorem ipsum</a></li>
+                                <li class="menu__item"><a class="menu__link" href="#">dolor sit amet</a></li>
+                            </ul>
                         </ul>
                         <a class="menu__link-s" href="#">home</a>
                     </nav>
@@ -38,21 +39,23 @@
                     <img class="slider__image" src="img/iphone.png" alt="iphone4">
                     <a href="#" class="slider__button slider__button--left"></a>
                     <a href="#" class="slider__button slider__button--right"></a>
-                </div>
-                <div class="slider__buttons">
-                    <input type="radio" name="point" id="slide1" checked>
-                    <input type="radio" name="point" id="slide2">
-                    <input type="radio" name="point" id="slide3">
-                    <input type="radio" name="point" id="slide4">
-                    <div class="controls">
-                        <label for="slide1"></label>
-                        <label for="slide2"></label>
-                        <label for="slide3"></label>
-                        <label for="slide4"></label>
+                    <div class="slider__buttons">
+                        <input type="radio" name="point" id="slide1" checked>
+                        <input type="radio" name="point" id="slide2">
+                        <input type="radio" name="point" id="slide3">
+                        <input type="radio" name="point" id="slide4">
+                        <div class="controls">
+                            <label for="slide1"></label>
+                            <label for="slide2"></label>
+                            <label for="slide3"></label>
+                            <label for="slide4"></label>
+                        </div>
                     </div>
                 </div>
             </section>
+        </div>
 
+        <div class="wrap_description">
             <section class="description">
                 <div class="description__box">
                     <div class="description__item description__item--key">
@@ -80,10 +83,13 @@
                     </div>
                 </div>
             </section>
+        </div>
 
-            <section class="info">
-                <div class="info__box">
-                    <div class="info__slider">
+        <div class="wrap_inform">
+            <div class="wrap_wrap">
+                <section class="info">
+                    <div class="info__box">
+                        <div class="info__slider">
                         <div class="info__bio">
                             <span class="bio__title">pingbuller</span>
                             <span class="bio__title bio__title--pink">starts here</span>
@@ -105,51 +111,52 @@
                             </div>
                         </div>
                     </div>
+                        <div class="info__updates">
+                            <h1 class="info__title">recent updates</h1>
 
-                    <div class="info__updates">
-                        <h1 class="info__title">recent updates</h1>
+                            <div class="info__item info__item--pic1">
+                                <p class="info__subtitle-xl">Nunc turpis neque feugiat eget</p>
+                                <p class="info__subtitle-s">Nunc turpis neque</p>
+                                <p class="info__text-xl">Posted by Admin on March 13 2012 in Recent News</p>
+                                <p class="info__text-l">Posted by Admin on March 13 2012</p>
+                                <p class="info__text-s">Posted by Admin on March 13</p>
+                            </div>
 
-                        <div class="info__item info__item--pic1">
-                            <p class="info__subtitle-xl">Nunc turpis neque feugiat eget</p>
-                            <p class="info__subtitle-s">Nunc turpis neque</p>
-                            <p class="info__text-xl">Posted by Admin on March 13 2012 in Recent News</p>
-                            <p class="info__text-l">Posted by Admin on March 13 2012</p>
-                            <p class="info__text-s">Posted by Admin on March 13</p>
+                            <div class="info__item info__item--pic2">
+                                <p class="info__subtitle-xl">Nunc turpis neque feugiat eget</p>
+                                <p class="info__subtitle-s">Nunc turpis neque</p>
+                                <p class="info__text-xl">Posted by Admin on March 13 2012 in Category</p>
+                                <p class="info__text-l">Posted by Admin on March 13 2012</p>
+                                <p class="info__text-s">Posted by Admin on March 13</p>
+                            </div>
+
+                            <div class="info__item info__item--pic3">
+                                <p class="info__subtitle-xl">Nunc turpis neque feugiat eget</p>
+                                <p class="info__subtitle-s">Nunc turpis neque</p>
+                                <p class="info__text-xl">Posted by Admin on March 13 2012 in Blog Updates</p>
+                                <p class="info__text-l">Posted by Admin on March 13 2012</p>
+                                <p class="info__text-s">Posted by Admin on March 13</p>
+                            </div>
+
+                            <span class="info__read-xl">read more here</span>
+                            <span class="info__read-l">more blog posts</span>
                         </div>
-
-                        <div class="info__item info__item--pic2">
-                            <p class="info__subtitle-xl">Nunc turpis neque feugiat eget</p>
-                            <p class="info__subtitle-s">Nunc turpis neque</p>
-                            <p class="info__text-xl">Posted by Admin on March 13 2012 in Category</p>
-                            <p class="info__text-l">Posted by Admin on March 13 2012</p>
-                            <p class="info__text-s">Posted by Admin on March 13</p>
-                        </div>
-
-                        <div class="info__item info__item--pic3">
-                            <p class="info__subtitle-xl">Nunc turpis neque feugiat eget</p>
-                            <p class="info__subtitle-s">Nunc turpis neque</p>
-                            <p class="info__text-xl">Posted by Admin on March 13 2012 in Blog Updates</p>
-                            <p class="info__text-l">Posted by Admin on March 13 2012</p>
-                            <p class="info__text-s">Posted by Admin on March 13</p>
-                        </div>
-
-                        <span class="info__read-xl">read more here</span>
-                        <span class="info__read-l">more blog posts</span>
                     </div>
-                </div>
-            </section>
+                </section>
+                <section class="sponsors">
+                    <div class="sponsors__box">
+                        <a href="#" class="sponsors__link"><img src="img/sponsor1.png" alt=""></a>
+                        <a href="#" class="sponsors__link"><img src="img/sponsor2.png" alt=""></a>
+                        <a href="#" class="sponsors__link"><img src="img/sponsor3.png" alt=""></a>
+                        <a href="#" class="sponsors__link"><img src="img/sponsor4.png" alt=""></a>
+                        <a href="#" class="sponsors__link"><img src="img/sponsor5.png" alt=""></a>
+                        <a href="#" class="sponsors__link"><img src="img/sponsor6.png" alt=""></a>
+                    </div>
+                </section>
+            </div>
+        </div>
 
-            <section class="sponsors">
-                <div class="sponsors__box">
-                    <a href="#" class="sponsors__link"><img src="img/sponsor1.png" alt=""></a>
-                    <a href="#" class="sponsors__link"><img src="img/sponsor2.png" alt=""></a>
-                    <a href="#" class="sponsors__link"><img src="img/sponsor3.png" alt=""></a>
-                    <a href="#" class="sponsors__link"><img src="img/sponsor4.png" alt=""></a>
-                    <a href="#" class="sponsors__link"><img src="img/sponsor5.png" alt=""></a>
-                    <a href="#" class="sponsors__link"><img src="img/sponsor6.png" alt=""></a>
-                </div>
-            </section>
-
+        <div class="wrap_news">
             <aside class="news">
                 <div class="news__box">
 
@@ -197,7 +204,9 @@
                     </div>
                 </div>
             </aside>
+        </div>
 
+        <div class="wrap_footer">
             <footer>
                 <ul class="menu menu--footer clearfix">
                     <li class="menu__item"><a class="menu__link menu__link--footer" href="#">home</a></li>
