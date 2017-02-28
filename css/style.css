@@ -25,9 +25,9 @@ html {
     box-sizing: border-box;
 }
 
-.bg {
+/*.bg {
     max-width: 1920px;
-}
+}*/
 
 .bg__header {
     height: 846px;
@@ -543,10 +543,8 @@ html {
 }
 
 .content-box__news {
-    /*width: 100%;
-    max-width: 960px;*/
     height: 398px;
-    padding: 10.2% 20px 0;
+    padding: 98px 2px 0;
     clear: both;
     box-sizing: border-box;
 }
