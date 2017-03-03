@@ -25,13 +25,10 @@ html {
     box-sizing: border-box;
 }
 
-/*.bg {
-    max-width: 1920px;
-}*/
-
 .bg__header {
     height: 846px;
     background: url('../img/bg-mount.jpg') top center repeat;
+    background-size: cover;
 }
 
 /* HEADER */
@@ -597,11 +594,10 @@ html {
 /* FOOTER */
 .bg__footer {
     background: url('../img/bg2.jpg') center top no-repeat;
+    background-size: cover;
 }
 
 .content-box__footer {
-    /*width: 100%;
-    max-width: 960px;*/
     height: 110px;
     padding: 0 20px;
     box-sizing: border-box;
